@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <title>ໂທລະສັບ ລາຄາສຸດຖືກຊື້ໄດ້ທີ PhoneZone</title>
+  <link rel="stylesheet" href="../bootstra 5/bootstrap-5.0.2-dist/css/bootstrap.css">
+
+  <link rel="stylesheet" href="Style.css">
+ 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+ <script src="Style.js"> </script>
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css">
+ 
+ <link rel="shortcut icon" href="Iconbato.png" type="image/x-icon">
+</head>
+
+<body style="font-family: phetsarath ot;">
+ 
+  <!-- ພື້ນຫຼັງວີດີໂອ -->
+<!-- 
+  <video class="video-background" autoplay muted loop>
+    <source src="../video/7670836-uhd_3840_2160_30fps.mp4" type="video/mp4">
+    
+  </video> -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+
+      <a href="Ex1.html" class="navbar-brand">Phone Zone </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link " href="Ex1.html" id=""><i class="bi bi-house"></i> ໜ້າຫຼັກ</a>
+          </li>
+          <li class="nav-item">
+            <a href="Ex2.html" class="nav-link"><i class="bi bi-bag"></i> ສີນຄ້າລາຄາໂປຣ</a>
+          </li>
+          <li class="nav-item">
+            <a href="Ex3.html" class="nav-link"><i class="bi bi-diagram-3"></i> ສ່ວນເສີມ</a>
+          </li>
+
+          <div class="menu">
+            <buttonເ class="menu-button bg-dark" style="color: white; ">ຂໍ້ມູນໂທລະສັບຕ່າງໆ</buttonເ>
+            <div class="dropdown">
+              <a href="iphone.html">iPhone</a>
+              <a href="Xiaomi.html">Xiaomi</a>
+              
+              <a href="Samsung.html">Samsung galaxy </a>
+              <a href="Oppo.html">Oppo</a>
+              
+              <a href="AsusROG.html">Asus ROG </a>
+            </div>
+          </div>
+
+        </ul>
+      </div>
+    </div>
+    
+    <!-- <div class="flex items-center bg-gray-300 text-gray-700 rounded-md px-3 py-1 w-64 max-w-md">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-gray-600" fill="none" viewBox="0 0 24 24"
+        stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          d="M21 21l-4.35-4.35M17 11a6 6 0 11-12 0 6 6 0 0112 0z" />
+      </svg>
+      <input type="text" placeholder="ຄົ້ນຫາ ..."
+        class="bg-transparent focus:outline-none w-full placeholder-gray-500" />
+    </div>
+    </div> -->
+  </nav>
+  <center>
+ <div>
+  <img src="../img3/ข้อความในย่อหน้าของคุณ.png" alt="" width="200px" height="200px" style="border-radius: 50%; object-fit: cover;">
+ </div>
+ <div class="">
+  <h3 style="color: white;">Welcome to Phone Zone </h3>
+  
+</div>
+</center>
+  
+ 
+
+
+    
+
+
+  
+  <div class="product-grid">
+    <div class="product-card" onclick="openModal(0)">
+      <img src="../img/iPhone-15-Pro_Black-Titanium-square_small.png" alt="iPhone 15" />
+      <h2>iPhone 15 Pro Max</h2>
+      <p>27,800,000 ກີບ</p>
+    </div>
+
+    <div class="product-card" onclick="openModal(1)">
+      <img src="../img/Samsung--Galaxy-S24-ULTRA-YELLOW-5G--8-square_medium-Photoroom.png" alt="Samsung galaxy s24 ultra" />
+      <h2>Samsung galaxy s24 ultra</h2>
+      <p>22,600,000 ກີບ</p>
+    </div>
+    <div class="product-card" onclick="openModal(2)">
+      <img src="../img/rog-phone-9_6-Photoroom.png" alt="ROG Phone 9 Pro" />
+      <h2>ROG Phone 9 Pro</h2>
+      <p>25,950,000 ກີບ</p>
+    </div>
+    <div class="product-card" onclick="openModal(6)">
+      <img src="../img/images-Photoroom.png" alt="" />
+      <h2 >Nothing Phone 1</h2>
+      <p >25,950,000 ກີບ</p>
+    </div>
+  </div>
+  <div class="product-grid2">
+    <div class="product-card" onclick="openModal(3)">
+      <img src="../img/ipad-air-storage-select-202405-13inch-space-gray-wifi_FMT_WHH-Photoroom.png" alt="Apple iad Air 13" />
+      <h2>Apple iad Air 13</h2>
+      <p>18,799,000 ກີບ</p>
+    </div>
+    <!-- ຍັງທັນໃສ່່ຮູບ -->
+    <div class="product-card" onclick="openModal(4)">
+      <img src="../img/vivo-smartphone-x200-pro-16512gb-titanium-grey-1-square_medium-Photoroom.png" alt="Vivo x200 ultra" />
+      <h2>Vivo x200 ultra</h2>
+      <p>24,000,000 ກີບ</p>
+    </div>
+    <div class="product-card" onclick="openModal(5)">
+      <img src="../img/5667c36c15d47b90d0faa7ac23c9f276.png" alt="Xiaomi 15 ultra" />
+      <h2>Xiaomi 15 ultra</h2>
+      <p>27,900,000 ກີບ</p>
+    </div>
+    <div class="product-card" onclick="openModal(7)">
+      <img src="../img/images (3)-Photoroom.png" alt="" />
+      <h2>iQOO 12 Pro</h2>
+      <p>27,900,000 ກີບ</p>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal" id="productModal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeModal()">&times;</span>
+      <img id="mainImage" src="" alt="Product" />
+      <div class="thumbs" id="thumbnails"></div>
+      <h2 id="modalTitle"></h2>
+      <p id="modalDesc"></p>
+      <p id="modalPrice" class="price"></p>
+     <a href="sell.html"> <button class="buy-btn">ສັ່ງຊື້</button></a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+  <footer class="text-center text-gray-500 text-sm py-6 border-t px-4" style="color: white;">
+    &copy; 2025 PhoneZhop . Created by Aming.
+  </footer>
+
+
+ 
